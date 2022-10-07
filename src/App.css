@@ -368,8 +368,11 @@ button {
     margin-top: 20px;
     margin-left: 0px;
   }
+  .header {
+    padding: 15px;
+  }
   .logo h3 {
-    font-size: 25px;
+    font-size: 20px;
     margin-bottom: 10px;
   }
   .homepage h1 {
@@ -387,7 +390,7 @@ button {
   }
 
   .mobile-menu-btn img {
-    width: 50px;
+    width: 40px;
   }
   .mobile-menu ul {
     background-color: #222;
