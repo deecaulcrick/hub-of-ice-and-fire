@@ -73,10 +73,10 @@ p {
   width: 95%;
 }
 
-form {
+/* form {
   margin: auto;
   width: 90%;
-}
+} */
 input {
   width: 96%;
   height: 10px;
@@ -97,7 +97,7 @@ input:focus {
 
 .character-container {
   margin: auto;
-  width: 80%;
+  width: 90%;
 }
 .characterGrid {
   display: inline-grid;
@@ -200,12 +200,6 @@ input:focus {
   font-size: 16px;
   margin-left: 2px;
 }
-
-/* .span-text{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between; 
-  } */
 
 .info-container h3 {
   font-family: "Cinzel Decorative", cursive;
@@ -341,21 +335,20 @@ button {
   cursor: pointer;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 768px) {
   /* For mobile phones: */
   .container {
-    padding: 30px;
+    padding: 20px;
   }
   .characterGrid {
     display: inline-grid;
     grid-template-columns: auto auto;
-    flex-wrap: wrap;
-    margin: 50px auto;
-    width: 90%;
+    margin: auto;
+    width: 80%;
   }
   .character-card,
   .house-card {
-    min-width: 50%;
+    min-width: 40%;
   }
   .main-image {
     width: 100%;
@@ -374,5 +367,8 @@ button {
   }
   .homepage h1 {
     font-size: 40px;
+  }
+  input {
+    width: 80%;
   }
 }

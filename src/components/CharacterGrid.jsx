@@ -14,7 +14,7 @@ function CharacterGrid({ characterItems }) {
         <form>
           <input 
           type='text' 
-          placeholder="Search for character"
+          placeholder="Search for characters"
           onChange={(e) => setQuery(e.target.value)}/>
         </form>
       </div>
