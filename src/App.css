@@ -340,12 +340,11 @@ button {
   .container {
     padding: 15px;
   }
-  /*.characterGrid {
-    display: flex;
-    flex-wrap: wrap;
-    width: 90%;
+  .characterGrid {
+    grid-template-columns: auto auto;
+    width: 100%;
   }
-  .characterItem {
+  /*.characterItem {
     width: 40%;
   }
   .character-card,
