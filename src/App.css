@@ -338,7 +338,7 @@ button {
 @media only screen and (max-width: 600px) {
   /* For mobile phones: */
   .container {
-    padding: 20px;
+    padding: 15px;
   }
   /*.characterGrid {
     display: flex;
