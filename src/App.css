@@ -1,383 +1,377 @@
-@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Cinzel+Decorative&display=swap");
 
-@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    color: white;
-    
-    text-decoration: none;
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+
+  text-decoration: none;
 }
-h1{
-    font-family: 'Cinzel Decorative', cursive;
-    font-weight: 400;
-    font-size: 100px;
-    line-height: 1.1em;
+h1 {
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 1.1em;
 }
-h2{
-    font-family: 'Cinzel Decorative', cursive;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 1.1em;
+h2 {
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.1em;
 }
-h5{
-    font-family: 'Cinzel Decorative', cursive;
-    font-weight: 400;
-    margin-top: 5px;
+h5 {
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 400;
+  margin-top: 5px;
 }
 
-p{
-    font-family: 'Lora', serif;
-    font-size: 18px;
+p {
+  font-family: "Lora", serif;
+  font-size: 18px;
 }
-.header{
-    font-family: 'Cinzel Decorative', cursive;
+.header {
+  font-family: "Cinzel Decorative", cursive;
 }
-.logo h3{
-    font-weight: 400;
-    font-size: 20px;
-    color: grey;
-    cursor: pointer;
+.logo h3 {
+  font-weight: 400;
+  font-size: 20px;
+  color: grey;
+  cursor: pointer;
 }
-.logo h3:hover{
-    color: white;
+.logo h3:hover {
+  color: white;
 }
 .header ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .header li {
-    display: inline;
-    float: left;
-    padding: 14px 16px;
-    cursor: pointer;
+  display: inline;
+  float: left;
+  padding: 14px 16px;
+  cursor: pointer;
 }
-.header li:hover{
-    background-color: #5a180c;
-    color: white;
-}
-
- .active li {
-    background-color: #5a180c;
-    color: white;
-}
-.container{
-    padding: 50px 100px;
-    background-color: #222;
-}
-.hero{
-    padding: 15px;
-    margin: auto;
-    width: 95%;
+.header li:hover {
+  background-color: #5a180c;
+  color: white;
 }
 
-form{
-    margin: auto;
-    width: 90%;
+.active li {
+  background-color: #5a180c;
+  color: white;
 }
-input{
-    width: 96%;
-    height: 10px;
-    padding: 20px;
-    font-family: 'Cinzel Decorative', cursive;
-    font-size: 20px;
-    background-color: black;
-    color: grey;
-    border: none;
-    border-bottom: 1px solid white;
+.container {
+  padding: 50px 100px;
+  background-color: #222;
+}
+.hero {
+  padding: 15px;
+  margin: auto;
+  width: 95%;
 }
 
-input:focus{
-    outline: none;
-    border: 1px solid #5A180C;
-    box-shadow: 4px 4px 45px -14px #5A180C;
+form {
+  margin: auto;
+  width: 90%;
+}
+input {
+  width: 96%;
+  height: 10px;
+  padding: 20px;
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 20px;
+  background-color: black;
+  color: grey;
+  border: none;
+  border-bottom: 1px solid white;
 }
 
-
-.character-container{
-    margin: auto;
-    width: 80%;
-}
-.characterGrid{
-    display: inline-grid;
-    grid-template-columns: auto auto auto auto auto auto;
-    margin-top: 50px;
-}
-.characterGrid h2{
-    text-align: center;
-    color: white;
-}
-.characterItem{
-    padding: 15px;
+input:focus {
+  outline: none;
+  border: 1px solid #5a180c;
+  box-shadow: 4px 4px 45px -14px #5a180c;
 }
 
-.character-card{
-    background-color: #4e4e4e;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    min-height: 205px;
+.character-container {
+  margin: auto;
+  width: 80%;
+}
+.characterGrid {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  margin-top: 50px;
+}
+.characterGrid h2 {
+  text-align: center;
+  color: white;
+}
+.characterItem {
+  padding: 15px;
 }
 
-.character-card p{
-    margin-top: 10px;
+.character-card {
+  background-color: #4e4e4e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  min-height: 205px;
+}
+
+.character-card p {
+  margin-top: 10px;
 }
 
 /* RIP tag */
 .character-card h4 {
-    font-family: 'Cinzel Decorative', cursive;
-    font-weight: 400;
-    background-color: #5a180c;
-    width:fit-content;
-    border-radius: 50%;
-    padding: 10px 7px;
-    font-size: 12px;
-    z-index: 99;
-    text-align: center;
-    margin-top: -30px;
-    position: relative;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 400;
+  background-color: #5a180c;
+  width: fit-content;
+  border-radius: 50%;
+  padding: 10px 7px;
+  font-size: 12px;
+  z-index: 99;
+  text-align: center;
+  margin-top: -30px;
+  position: relative;
 }
-.character-card img{
-    height: 150px;
-    min-width: 98px;
-    max-width: 100px;
-    object-fit: cover;
-    cursor: pointer;
-    transition-property: border;
-    transition: 100ms;
+.character-card img {
+  height: 150px;
+  min-width: 98px;
+  max-width: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  transition-property: border;
+  transition: 100ms;
 }
-.character-card img:hover{
-    border: 2px solid white;
-   
-}
-
-  .info{
-    height: 300px;
-    width: 500px;
-    background-color: blue;
-  }
-
-  .header, .footer{
-    font-family: 'Cinzel Decorative', cursive;
-    background-color: black;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 10px 50px;
-  }
-
-  .footer{
-    padding: 20px;
-  }
-  
-  .footer p{
-    font-family: 'Cinzel Decorative', cursive;
-    font-weight: 400;
-    font-size:14px;
-    color: grey;
-    cursor: pointer;
-}
-.footer p:hover{
-    color: white;
+.character-card img:hover {
+  border: 2px solid white;
 }
 
-  .info-container{
-    color: white;
+.info {
+  height: 300px;
+  width: 500px;
+  background-color: blue;
+}
 
-  }
+.header {
+  font-family: "Cinzel Decorative", cursive;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 10px 50px;
+}
 
-  .info-container h2{
-    border-bottom: 1px solid white;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-  }
-  .info-container span{
-    font-size: 16px;
-    margin-left: 2px;
-  }
+.footer {
+  background-color: black;
+  color: white;
+  padding: 20px;
+}
 
-  /* .span-text{
+.footer p {
+  font-family: "Cinzel Decorative", cursive;
+  text-align: center;
+  font-weight: 400;
+  font-size: 14px;
+  color: grey;
+  cursor: pointer;
+}
+.footer p:hover {
+  color: white;
+}
+
+.info-container {
+  color: white;
+}
+
+.info-container h2 {
+  border-bottom: 1px solid white;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+.info-container span {
+  font-size: 16px;
+  margin-left: 2px;
+}
+
+/* .span-text{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between; 
   } */
 
-  .info-container h3{
-    font-family: 'Cinzel Decorative', cursive;
-    font-weight: 400;
-    font-size: 22px;
-    margin-top: 10px;
-  }
-
-  .main{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-  }
-  .main-image{
-    width: 30%;
-  }
-  .main-image img{
-    width: 300px;
-    object-fit: contain;
-    border: 2px solid white;
-  }
-
-
-  .dead {
-    font-family: 'Cinzel Decorative', cursive;
-    font-weight: 400;
-    background-color: #5a180c;
-    width:fit-content;
-    border-radius: 50%;
-    padding: 15px 10px;
-    font-size: 20px;
-    z-index: 99;
-    text-align: center;
-    margin-bottom: -30px;
-    position: relative;
-}
-  .main-text{
-    width: 60%;
-    margin-left: 20px;
-  }
-
-  .battles{
-    color: white;
-    margin:auto;
-    width: 99%;
-  }
-  .battles li{
-    list-style-type: none;
-  }
-
-  th{
-    text-align: left;
-    font-family: 'Cinzel Decorative', cursive;
-    font-weight: 400;
-    font-size: 20px;
-  }
-
-  tr:nth-child(even) {
-    background-color: #4e4e4e;
-  }
-
-  tr:hover {
-    background-color: #5a180c;
-    cursor: pointer;
-    box-shadow: 0px 4px 45px -10px rgba(0,0,0,0.5);
-}
-table{
-    width: 500px;
-    margin-top: 50px;
+.info-container h3 {
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 400;
+  font-size: 22px;
+  margin-top: 10px;
 }
 
-th{
-    padding: 15px 5px;
+.main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.main-image {
+  width: 30%;
+}
+.main-image img {
+  width: 300px;
+  object-fit: contain;
+  border: 2px solid white;
+}
+
+.dead {
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 400;
+  background-color: #5a180c;
+  width: fit-content;
+  border-radius: 50%;
+  padding: 15px 10px;
+  font-size: 20px;
+  z-index: 99;
+  text-align: center;
+  margin-bottom: -30px;
+  position: relative;
+}
+.main-text {
+  width: 60%;
+  margin-left: 20px;
+}
+
+.battles {
+  color: white;
+  margin: auto;
+  width: 99%;
+}
+.battles li {
+  list-style-type: none;
+}
+
+th {
+  text-align: left;
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+tr:nth-child(even) {
+  background-color: #4e4e4e;
+}
+
+tr:hover {
+  background-color: #5a180c;
+  cursor: pointer;
+  box-shadow: 0px 4px 45px -10px rgba(0, 0, 0, 0.5);
+}
+table {
+  width: 500px;
+  margin-top: 50px;
+}
+
+th {
+  padding: 15px 5px;
 }
 td {
-    padding: 15px;
-  } 
-
-  /* Houses Page Styling */
-
-  .house-card{
-    background-color: #4e4e4e;
-    color: white;
-    text-align: center;
-    padding: 20px;
-    min-height: 230px;
-    max-width: 100px;
-  }
-
-  .house-card img{
-    height: 150px;
-    min-width: 98px;
-    max-width: 100px;
-    object-fit: cover;
-    cursor: pointer;
-    transition-property: border;
-    transition: 100ms;
+  padding: 15px;
 }
 
-.house-card img:hover{
-    border: 2px solid white;
-   
-}
-.homepage{
-    min-height: 500px;  
-    text-align: center;
-}
-.homepage h1{
-    
-    font-size: 60px;
-    margin-top: 50px;
-}
-.homepage h3{
-    font-family: 'Cinzel Decorative', cursive;
-    font-weight: 400;
-    font-size: 22px;
-    margin-top: 10px;
-    margin-bottom: 50px;
-  }
-  .homepage span{
-    font-size: 16px;
-    margin-left: 2px;
-  }
-.button-links{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    width: 80%;
-    margin: auto;
-}
-button{
-    background-color: #5a180c;
-    border: none;
-    font-family: 'Cinzel Decorative', cursive;
-    padding: 15px 30px;
-    cursor: pointer;
+/* Houses Page Styling */
+
+.house-card {
+  background-color: #4e4e4e;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  min-height: 230px;
+  max-width: 100px;
 }
 
+.house-card img {
+  height: 150px;
+  min-width: 98px;
+  max-width: 100px;
+  object-fit: cover;
+  cursor: pointer;
+  transition-property: border;
+  transition: 100ms;
+}
+
+.house-card img:hover {
+  border: 2px solid white;
+}
+.homepage {
+  min-height: 500px;
+  text-align: center;
+}
+.homepage h1 {
+  font-size: 60px;
+  margin-top: 50px;
+}
+.homepage h3 {
+  font-family: "Cinzel Decorative", cursive;
+  font-weight: 400;
+  font-size: 22px;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+.homepage span {
+  font-size: 16px;
+  margin-left: 2px;
+}
+.button-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 80%;
+  margin: auto;
+}
+button {
+  background-color: #5a180c;
+  border: none;
+  font-family: "Cinzel Decorative", cursive;
+  padding: 15px 30px;
+  cursor: pointer;
+}
 
 @media only screen and (max-width: 800px) {
-    /* For mobile phones: */
-    .container{
-        padding: 30px;
-    }
-    .characterGrid{
-        display: inline-grid;
-        grid-template-columns: auto auto;
-        margin: auto;
-        margin-top: 50px;
-        width: 90%;
-    }
-    .character-card, .house-card{
-        min-width: 150px;
-    }
-    .main-image{
-        width: 100%;
-      }
-      .main-image img{
-        width: 100%;
-      }
-      .main-text{
-        width: 100%;
-        margin-top: 20px;
-        margin-left: 0px;
-      }
-      .logo h3{
-        font-size: 25px;
-        margin-bottom: 10px;
-      }
-      .homepage h1{
-        font-size: 40px;
-    }
-      
+  /* For mobile phones: */
+  .container {
+    padding: 30px;
   }
-
-
+  .characterGrid {
+    display: inline-grid;
+    grid-template-columns: auto auto;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+  }
+  .character-card,
+  .house-card {
+    min-width: 150px;
+  }
+  .main-image {
+    width: 100%;
+  }
+  .main-image img {
+    width: 100%;
+  }
+  .main-text {
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 0px;
+  }
+  .logo h3 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  .homepage h1 {
+    font-size: 40px;
+  }
+}
