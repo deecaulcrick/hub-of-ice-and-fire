@@ -102,7 +102,8 @@ input:focus {
 .characterGrid {
   display: inline-grid;
   grid-template-columns: auto auto auto auto auto auto;
-  margin-top: 50px;
+  margin: 50px auto;
+  width: 95%;
 }
 .characterGrid h2 {
   text-align: center;
@@ -348,13 +349,13 @@ button {
   .characterGrid {
     display: inline-grid;
     grid-template-columns: auto auto;
-    margin: auto;
-    margin-top: 50px;
+    flex-wrap: wrap;
+    margin: 50px auto;
     width: 90%;
   }
   .character-card,
   .house-card {
-    min-width: 150px;
+    min-width: 50%;
   }
   .main-image {
     width: 100%;
