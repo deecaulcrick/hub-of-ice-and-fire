@@ -335,6 +335,11 @@ button {
   cursor: pointer;
 }
 
+.mobile-menu,
+.mobile-menu-btn {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   /* For mobile phones: */
   .container {
@@ -372,5 +377,28 @@ button {
   }
   input {
     width: 80%;
+  }
+  .main {
+    padding: 20px;
+  }
+  .mobile-menu,
+  .mobile-menu-btn {
+    display: contents;
+  }
+
+  .mobile-menu-btn img {
+    width: 50px;
+  }
+  .mobile-menu ul {
+    background-color: #222;
+    list-style-type: none;
+    font-family: "Cinzel Decorative", cursive;
+  }
+
+  .mobile-menu li {
+    padding: 15px 30px;
+  }
+  .menu {
+    display: none;
   }
 }

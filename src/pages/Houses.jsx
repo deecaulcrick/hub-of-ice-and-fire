@@ -10,13 +10,15 @@ function Houses({housesItems}) {
 
   return (
     <div className="houses">
-      <div className="hero-container">
-        <form>
-          <input 
-          type='text' 
-          placeholder="Search for house"
-          onChange={(e) => setHousesQuery(e.target.value)}/>
-        </form>
+      <div className="hero">
+        <div className="hero-container">
+          <form>
+            <input 
+            type='text' 
+            placeholder="Search for house"
+            onChange={(e) => setHousesQuery(e.target.value)}/>
+          </form>
+          </div>
       </div>
       
       <div className="characterGrid">
