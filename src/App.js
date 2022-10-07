@@ -6,6 +6,7 @@ import Houses from './pages/Houses';
 import Battles from './pages/Battles';
 import CharacterInfo from './pages/CharacterInfo';
 import HousesInfo from './pages/HousesInfo';
+
 import axios from 'axios'
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
