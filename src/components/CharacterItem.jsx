@@ -1,9 +1,7 @@
 import {Link} from 'react-router-dom'
 
 function CharacterItem({ character }) {
-  const handleClick = (id) => {
-    console.log(id)
-  }
+  
   return (
     <div className="characterItem">
       <div className="character-card">

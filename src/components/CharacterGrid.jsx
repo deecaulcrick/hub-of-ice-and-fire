@@ -22,7 +22,7 @@ function CharacterGrid({ characterItems }) {
     </div>
       <div className="characterGrid">
       
-      {getQuery.length == 0 ? <h2>No characters found!</h2> : (getQuery.map((character) => (
+      {getQuery.length === 0 ? <h2>No characters found!</h2> : (getQuery.map((character) => (
         <CharacterItem key ={character._id}character={character}/>
       )))}
       

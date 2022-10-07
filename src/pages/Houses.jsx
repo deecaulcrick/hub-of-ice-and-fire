@@ -1,7 +1,5 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import {Link} from 'react-router-dom'
-
-import axios from 'axios'
 
 function Houses({housesItems}) {
 
@@ -23,7 +21,7 @@ function Houses({housesItems}) {
       
       <div className="characterGrid">
       
-        {getHousesQuery.length == 0 ? <h2>No houses found!</h2> : (getHousesQuery.map((house) => (
+        {getHousesQuery.length === 0 ? <h2>No houses found!</h2> : (getHousesQuery.map((house) => (
           <div className="characterItem" key={house._id}>
               <div className="house-card" >
                 <Link to={`/houses/${house._id}`}><img src={house.logoURL} alt=''/></Link>

@@ -10,7 +10,7 @@ function CharacterInfo({characterItems}) {
             <div className='main'>
                 <div className='main-image'>
                     { item.alive ? '' : ( <h4 className='dead'>R.I.P</h4>)}
-                    <img src={item.image} />
+                    <img src={item.image} alt='' />
                 </div>
                 <div className='main-text'>
                     <h2>{item.name}<span>  ({item.house})</span></h2>

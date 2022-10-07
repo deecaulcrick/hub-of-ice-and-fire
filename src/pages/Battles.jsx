@@ -29,7 +29,7 @@ function Battles() {
         </div>
         <div style={{overflowX:'auto'}}>
 
-        {getBattleQuery.length == 0 ? <h2>No battles found!</h2> :
+        {getBattleQuery.length === 0 ? <h2>No battles found!</h2> :
 
             <table style={{width:'100%'}} >
                 <tr>
